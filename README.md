@@ -13,6 +13,10 @@ Helpful links, resources, and notes around the mil-sim Arma Reforger.
 
 ## Helpful Tips
 
+* Downloaded mods via the game are saved here: `C:\Users\<username>\Documents\My Games\ArmaReforger`
+* Workbench mods via the Tools application are saved here: `C:\Users\<username>\Documents\My Games\ArmaReforgerWorkbench`
+* Tools -> Game Mode Setup is a helpful plugin that will walk you through the creation of common managers and systems that are needed
+within the World Editor environment for your mission.
 * Use `CTRL + DOWN ARROW` to move the selected item in the world map down to the ground.
 * `*.et` files are entity prefabs.
 * `GameModeSF` is Game Mode [Scenario Framework](https://community.bistudio.com/wiki/Arma_Reforger:Scenario_Framework)
@@ -23,6 +27,7 @@ a faction will not work.
 * For slots, the z-axis or the blue arrow is where spawned objects like people or vehicles will point to start.
 * In the World Editor, click "Camera" at the top of the screen.  Then increase the "Far Plane".  This will push the "fog" back and allow you to see
 more of the landscape.
+* When in the script editor, "Build" -> "Validate Scripts" will check all your custom scripts for any syntax errors or other issues.
 
 ## References
 
@@ -48,6 +53,7 @@ more of the landscape.
 * [Dynamic Operations](https://github.com/JacobMeister/DynamicOperations)
 * [RHS - Status Quo](https://github.com/RHSMODS/statusquo)
 * [Global Conflicts](https://github.com/Global-Conflicts-ArmA/gc-reforger-core)
+  * [Global Conflicts Missions](https://github.com/Global-Conflicts-ArmA/gc-reforger-missions)
 * [Overthrow](https://github.com/ArmaOverthrow/Overthrow.Arma4)
 * [Project Rebellion](https://github.com/FatihHekim0glu/Project-Rebellion)
 * [HTCTI](https://github.com/HTomJMW/htCTI-Arma-Reforger)
