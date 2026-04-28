@@ -51,8 +51,8 @@ via Doxygen.
 * [https://www.youtube.com/@Blackheart_Six-script/videos](https://www.youtube.com/@Blackheart_Six-script/videos)
 * [Official Bohemia Arma Reforger Modding Youtube Tutorial Series](https://www.youtube.com/watch?v=Fgl_mAHReP4&list=PLfUcrRpCM_fKjkTrkV-bqnknVbFCPA3YU)
   * Replication and Synchronization Between Client and Server
-  * [Part 1](https://www.youtube.com/watch?v=asWxIIHT6d0)
-  * [Part 2](https://www.youtube.com/watch?v=rTqb3QvndxA)
+    * [Part 1](https://www.youtube.com/watch?v=asWxIIHT6d0)
+    * [Part 2](https://www.youtube.com/watch?v=rTqb3QvndxA)
 * [https://www.youtube.com/@blackheart_six-framework/videos](https://www.youtube.com/@blackheart_six-framework/videos)
 * [https://github.com/Herbiie/ArmAReforgerMissionMakingGuide](https://github.com/Herbiie/ArmAReforgerMissionMakingGuide)
   * See Wiki page
