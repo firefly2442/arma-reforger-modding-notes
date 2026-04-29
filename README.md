@@ -12,6 +12,7 @@ Helpful links, resources, and notes around the mil-sim Arma Reforger.
 
 * Downloaded mods via the game are saved here: `C:\Users\<username>\Documents\My Games\ArmaReforger`
 * Workbench mods via the Tools application are saved here: `C:\Users\<username>\Documents\My Games\ArmaReforgerWorkbench`
+* Add `-noSplash` to startup parameters for the game to skip the splash screen.  [See more details around startup here.](https://community.bistudio.com/wiki/Arma_Reforger:Startup_Parameters)
 
 ## World Notes
 
@@ -26,7 +27,9 @@ a faction will not work.
 * For slots, the z-axis or the blue arrow is where spawned objects like people or vehicles will point to start.
 * In the World Editor, click "Camera" at the top of the screen.  Then increase the "Far Plane".  This will push the "fog" back and allow you to see
 more of the landscape.
-* Under the Plugins, you can launch a dedicated server with a client to help test server + client synchronization and data.
+* Under the Plugins, you can setup a dedicated server with a client to help test server + client synchronization and data.
+  * When testing this, make sure the executable is setup as `ArmaReforgerSteamDiag.exe`.  Also see details in [this video on how to set it up](https://youtu.be/asWxIIHT6d0?list=PLfUcrRpCM_fKjkTrkV-bqnknVbFCPA3YU&t=1407)
+  * This allows you to adjust the options in the "Play" dropdown menu, and then test with the server and client as a separate window.
 
 ### Scripting
 
@@ -41,6 +44,7 @@ via Doxygen.
 * Client vs. Server data needs and replication, [see details on the wiki](https://community.bistudio.com/wikidata/external-data/arma-reforger/EnfusionScriptAPIPublic/Page_Replication_Overview.html)
 * RplChannels have `Reliable` and `Unreliable` similar to TCP and UDP in terms of whether they are guaranteed to be received or not.
 * [The wiki has details on multiplayer scripting](https://community.bistudio.com/wiki/Arma_Reforger:Multiplayer_Scripting) and network considerations.
+* [Overthrow has details on multiplayer replication options](https://wiki.armaoverthrow.com/development-documentation/networking)
 
 ## References
 
@@ -62,6 +66,10 @@ via Doxygen.
 * [https://github.com/JacobMeister/ScenarioFrameworkExplained](https://github.com/JacobMeister/ScenarioFrameworkExplained)
 * [Arma Reforger Scripting API Reference](https://community.bistudio.com/wikidata/external-data/arma-reforger/ArmaReforgerScriptAPIPublic/index.html)
 * [Awesome Reforger - List of Helpful Links](https://github.com/ofpisnotdead-com/awesome-reforger)
+* [Overthrow Development Documentation](https://wiki.armaoverthrow.com/en/development-documentation)
+  * A lot of great documentation, particularly around architecture and code organization, multiplayer synchronization, and more as this is a large project.
+* [https://www.youtube.com/@UselessFodder/playlists](https://www.youtube.com/@UselessFodder/playlists)
+  * [Enfusion Engine Tutorials](https://www.youtube.com/watch?v=MJimkvlGj9I&list=PLVBzDpnhUbWCjVSEyK7oF8M0C8b2coWha)
 
 ### Interesting Projects
 
@@ -75,7 +83,11 @@ via Doxygen.
 * [HTCTI](https://github.com/HTomJMW/htCTI-Arma-Reforger)
 * [Everon Life](https://github.com/EveronLife/EveronLife)
 * [Bohemia Arma Reforger Samples](https://github.com/BohemiaInteractive/Arma-Reforger-Samples)
+* [Enfusion Persistence Framework](https://github.com/Arkensor/EnfusionPersistenceFramework)
+  * Now deprecated, see the built-in [Arma Reforger Persistence System](https://community.bistudio.com/wiki/Arma_Reforger:Persistence_System)
+* [Darc Mods and Missions](https://github.com/mokdevel/DarcMods)
 
 ### Dedicated Server
 
 * [Arma Reforger Dedicated Server in Docker](https://github.com/acemod/docker-reforger)
+* [Persistent Save Setup](https://www.youtube.com/watch?v=najAVBkxfsY)
