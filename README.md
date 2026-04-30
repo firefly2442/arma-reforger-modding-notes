@@ -86,6 +86,7 @@ via Doxygen.
 * [Enfusion Persistence Framework](https://github.com/Arkensor/EnfusionPersistenceFramework)
   * Now deprecated, see the built-in [Arma Reforger Persistence System](https://community.bistudio.com/wiki/Arma_Reforger:Persistence_System)
 * [Darc Mods and Missions](https://github.com/mokdevel/DarcMods)
+* [Project Argus](https://k02-1.com/)
 
 ### Dedicated Server
 
